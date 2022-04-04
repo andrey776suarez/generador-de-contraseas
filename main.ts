@@ -25,13 +25,14 @@ input.onButtonPressed(Button.A, function () {
             if (simbol == 1) {
                 basic.showString("*")
             } else if (simbol == 2) {
-                basic.showString("*")
+                basic.showString(".")
             } else if (simbol == 3) {
-                basic.showString("*")
-            } else if (simbol == 2) {
                 basic.showString("?")
+            } else if (simbol == 4) {
+                basic.showString("! ")
             }
         }
+        basic.pause(2000)
     }
 })
 basic.forever(function () {
